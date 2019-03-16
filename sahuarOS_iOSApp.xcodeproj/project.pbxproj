@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D2B013A223CBD90000F73DF /* SahuaroProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2B0139223CBD90000F73DF /* SahuaroProduct.swift */; };
+		7D2B013C223CF400000F73DF /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2B013B223CF400000F73DF /* WebService.swift */; };
+		7D2B013F223CFFF4000F73DF /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2B013E223CFFF4000F73DF /* ProductTableViewCell.swift */; };
+		7D2B0144223D1D8F000F73DF /* ShoppingCartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2B0143223D1D8F000F73DF /* ShoppingCartTableViewController.swift */; };
+		7D2B0146223D1DC0000F73DF /* ButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2B0145223D1DC0000F73DF /* ButtonTableViewCell.swift */; };
+		7D2BFE6B223C7022000F73DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2BFE6A223C7022000F73DF /* AppDelegate.swift */; };
+		7D2BFE70223C7022000F73DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2BFE6E223C7022000F73DF /* Main.storyboard */; };
+		7D2BFE72223C7024000F73DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D2BFE71223C7024000F73DF /* Assets.xcassets */; };
+		7D2BFE75223C7024000F73DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2BFE73223C7024000F73DF /* LaunchScreen.storyboard */; };
+		7D2BFE82223C7732000F73DF /* CategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2BFE81223C7732000F73DF /* CategoriesTableViewController.swift */; };
+		7D2BFE85223C77BC000F73DF /* sahuarOS_Data .swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2BFE84223C77BC000F73DF /* sahuarOS_Data .swift */; };
+		7D2BFE87223C8507000F73DF /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2BFE86223C8507000F73DF /* ProductsTableViewController.swift */; };
+		7D2BFE89223C985F000F73DF /* ProductDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2BFE88223C985F000F73DF /* ProductDetailTableViewController.swift */; };
+		7D2BFE8B223CABC6000F73DF /* OrdersHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2BFE8A223CABC6000F73DF /* OrdersHistoryTableViewController.swift */; };
+		7D2BFE8D223CABDC000F73DF /* OrderDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2BFE8C223CABDC000F73DF /* OrderDetailTableViewController.swift */; };
+		7D6AC288223D522A004E8749 /* DetailHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6AC287223D522A004E8749 /* DetailHistoryTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D2B0139223CBD90000F73DF /* SahuaroProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SahuaroProduct.swift; sourceTree = "<group>"; };
+		7D2B013B223CF400000F73DF /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		7D2B013E223CFFF4000F73DF /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		7D2B0143223D1D8F000F73DF /* ShoppingCartTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartTableViewController.swift; sourceTree = "<group>"; };
+		7D2B0145223D1DC0000F73DF /* ButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCell.swift; sourceTree = "<group>"; };
+		7D2BFE67223C7022000F73DF /* sahuarOS_iOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sahuarOS_iOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D2BFE6A223C7022000F73DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D2BFE6F223C7022000F73DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D2BFE71223C7024000F73DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D2BFE74223C7024000F73DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D2BFE76223C7024000F73DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D2BFE81223C7732000F73DF /* CategoriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewController.swift; sourceTree = "<group>"; };
+		7D2BFE84223C77BC000F73DF /* sahuarOS_Data .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "sahuarOS_Data .swift"; sourceTree = "<group>"; };
+		7D2BFE86223C8507000F73DF /* ProductsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
+		7D2BFE88223C985F000F73DF /* ProductDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailTableViewController.swift; sourceTree = "<group>"; };
+		7D2BFE8A223CABC6000F73DF /* OrdersHistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersHistoryTableViewController.swift; sourceTree = "<group>"; };
+		7D2BFE8C223CABDC000F73DF /* OrderDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailTableViewController.swift; sourceTree = "<group>"; };
+		7D6AC287223D522A004E8749 /* DetailHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHistoryTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D2BFE64223C7022000F73DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D2B013D223CFFC0000F73DF /* Products  */ = {
+			isa = PBXGroup;
+			children = (
+				7D2BFE86223C8507000F73DF /* ProductsTableViewController.swift */,
+				7D2B013E223CFFF4000F73DF /* ProductTableViewCell.swift */,
+			);
+			path = "Products ";
+			sourceTree = "<group>";
+		};
+		7D2B0140223D1CD2000F73DF /* ShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+				7D2B0143223D1D8F000F73DF /* ShoppingCartTableViewController.swift */,
+				7D2B0145223D1DC0000F73DF /* ButtonTableViewCell.swift */,
+			);
+			path = ShoppingCart;
+			sourceTree = "<group>";
+		};
+		7D2B0141223D1D26000F73DF /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				7D2BFE81223C7732000F73DF /* CategoriesTableViewController.swift */,
+				7D2B013D223CFFC0000F73DF /* Products  */,
+				7D2BFE88223C985F000F73DF /* ProductDetailTableViewController.swift */,
+			);
+			path = Catalog;
+			sourceTree = "<group>";
+		};
+		7D2B0142223D1D48000F73DF /* Order History */ = {
+			isa = PBXGroup;
+			children = (
+				7D2BFE8A223CABC6000F73DF /* OrdersHistoryTableViewController.swift */,
+				7D2BFE8C223CABDC000F73DF /* OrderDetailTableViewController.swift */,
+				7D6AC287223D522A004E8749 /* DetailHistoryTableViewCell.swift */,
+			);
+			path = "Order History";
+			sourceTree = "<group>";
+		};
+		7D2BFE5E223C7022000F73DF = {
+			isa = PBXGroup;
+			children = (
+				7D2BFE69223C7022000F73DF /* sahuarOS_iOSApp */,
+				7D2BFE68223C7022000F73DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D2BFE68223C7022000F73DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D2BFE67223C7022000F73DF /* sahuarOS_iOSApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D2BFE69223C7022000F73DF /* sahuarOS_iOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				7D2BFE7C223C7112000F73DF /* extensions */,
+				7D2BFE83223C7745000F73DF /* Utilities */,
+				7D2BFE7D223C711E000F73DF /* MVC */,
+				7D2BFE7E223C71AE000F73DF /* Support Files */,
+				7D2BFE6E223C7022000F73DF /* Main.storyboard */,
+				7D2BFE71223C7024000F73DF /* Assets.xcassets */,
+				7D2BFE76223C7024000F73DF /* Info.plist */,
+			);
+			path = sahuarOS_iOSApp;
+			sourceTree = "<group>";
+		};
+		7D2BFE7C223C7112000F73DF /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		7D2BFE7D223C711E000F73DF /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				7D2B0141223D1D26000F73DF /* Catalog */,
+				7D2B0142223D1D48000F73DF /* Order History */,
+				7D2B0140223D1CD2000F73DF /* ShoppingCart */,
+				7D2B0139223CBD90000F73DF /* SahuaroProduct.swift */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		7D2BFE7E223C71AE000F73DF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D2BFE6A223C7022000F73DF /* AppDelegate.swift */,
+				7D2BFE73223C7024000F73DF /* LaunchScreen.storyboard */,
+				7D2BFE84223C77BC000F73DF /* sahuarOS_Data .swift */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		7D2BFE83223C7745000F73DF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7D2B013B223CF400000F73DF /* WebService.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D2BFE66223C7022000F73DF /* sahuarOS_iOSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D2BFE79223C7024000F73DF /* Build configuration list for PBXNativeTarget "sahuarOS_iOSApp" */;
+			buildPhases = (
+				7D2BFE63223C7022000F73DF /* Sources */,
+				7D2BFE64223C7022000F73DF /* Frameworks */,
+				7D2BFE65223C7022000F73DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sahuarOS_iOSApp;
+			productName = sahuarOS_iOSApp;
+			productReference = 7D2BFE67223C7022000F73DF /* sahuarOS_iOSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D2BFE5F223C7022000F73DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Felipe Montoya";
+				TargetAttributes = {
+					7D2BFE66223C7022000F73DF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 7D2BFE62223C7022000F73DF /* Build configuration list for PBXProject "sahuarOS_iOSApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D2BFE5E223C7022000F73DF;
+			productRefGroup = 7D2BFE68223C7022000F73DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D2BFE66223C7022000F73DF /* sahuarOS_iOSApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D2BFE65223C7022000F73DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D2BFE75223C7024000F73DF /* LaunchScreen.storyboard in Resources */,
+				7D2BFE72223C7024000F73DF /* Assets.xcassets in Resources */,
+				7D2BFE70223C7022000F73DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D2BFE63223C7022000F73DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D2B013C223CF400000F73DF /* WebService.swift in Sources */,
+				7D2BFE8D223CABDC000F73DF /* OrderDetailTableViewController.swift in Sources */,
+				7D2BFE6B223C7022000F73DF /* AppDelegate.swift in Sources */,
+				7D2B0146223D1DC0000F73DF /* ButtonTableViewCell.swift in Sources */,
+				7D2BFE87223C8507000F73DF /* ProductsTableViewController.swift in Sources */,
+				7D2B013A223CBD90000F73DF /* SahuaroProduct.swift in Sources */,
+				7D2BFE82223C7732000F73DF /* CategoriesTableViewController.swift in Sources */,
+				7D6AC288223D522A004E8749 /* DetailHistoryTableViewCell.swift in Sources */,
+				7D2BFE8B223CABC6000F73DF /* OrdersHistoryTableViewController.swift in Sources */,
+				7D2B013F223CFFF4000F73DF /* ProductTableViewCell.swift in Sources */,
+				7D2BFE89223C985F000F73DF /* ProductDetailTableViewController.swift in Sources */,
+				7D2B0144223D1D8F000F73DF /* ShoppingCartTableViewController.swift in Sources */,
+				7D2BFE85223C77BC000F73DF /* sahuarOS_Data .swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D2BFE6E223C7022000F73DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D2BFE6F223C7022000F73DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D2BFE73223C7024000F73DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D2BFE74223C7024000F73DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D2BFE77223C7024000F73DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D2BFE78223C7024000F73DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D2BFE7A223C7024000F73DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9J543JJM4P;
+				INFOPLIST_FILE = sahuarOS_iOSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fmbosox.sahuarOS-iOSApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D2BFE7B223C7024000F73DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9J543JJM4P;
+				INFOPLIST_FILE = sahuarOS_iOSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fmbosox.sahuarOS-iOSApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D2BFE62223C7022000F73DF /* Build configuration list for PBXProject "sahuarOS_iOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D2BFE77223C7024000F73DF /* Debug */,
+				7D2BFE78223C7024000F73DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D2BFE79223C7024000F73DF /* Build configuration list for PBXNativeTarget "sahuarOS_iOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D2BFE7A223C7024000F73DF /* Debug */,
+				7D2BFE7B223C7024000F73DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D2BFE5F223C7022000F73DF /* Project object */;
+}
